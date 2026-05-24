@@ -43,7 +43,9 @@
     <div class="project-grid">
       @for (project of projects; track project.company) {
         <article class="project-card">
-          <div class="project-visual" [style.background]="project.gradient"></div>
+          <div class="project-visual" [style.background]="project.gradient">
+            <img [src]="project.logoSrc" [alt]="project.logoAlt" loading="lazy">
+          </div>
           <div class="project-body">
             <span class="project-category">{{ project.category }}</span>
             <h3>{{ project.company }}</h3>

@@ -1,0 +1,25 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">IRIUM</title>
+  <rect width="240" height="240" rx="28" fill="#F7FAF7"/>
+  <path d="M23 52C72 10 154 2 215 40C191 62 128 75 23 52Z" fill="url(#top)"/>
+  <path d="M18 88C52 73 111 70 158 76C191 80 216 78 224 70C228 91 230 121 223 144C200 156 161 149 121 144C79 139 39 140 20 149C12 128 11 103 18 88Z" fill="url(#mid)"/>
+  <path d="M31 184C75 169 159 169 213 194C166 231 88 236 31 184Z" fill="url(#bottom)"/>
+  <path d="M18 88C53 75 91 82 121 94C74 104 39 103 18 88Z" fill="#006D78" opacity="0.78"/>
+  <path d="M224 144C185 153 146 139 116 126C160 117 203 113 224 144Z" fill="#006D78" opacity="0.7"/>
+  <path d="M31 184C68 175 105 186 136 198C93 207 56 205 31 184Z" fill="#5E538E" opacity="0.75"/>
+  <defs>
+    <linearGradient id="top" x1="23" y1="43" x2="215" y2="43" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CAE58C"/>
+      <stop offset="1" stop-color="#42A231"/>
+    </linearGradient>
+    <linearGradient id="mid" x1="13" y1="111" x2="228" y2="111" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#83D4D0"/>
+      <stop offset="0.52" stop-color="#00B7AF"/>
+      <stop offset="1" stop-color="#00A99E"/>
+    </linearGradient>
+    <linearGradient id="bottom" x1="31" y1="202" x2="213" y2="202" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C9C3E5"/>
+      <stop offset="1" stop-color="#6E5AAE"/>
+    </linearGradient>
+  </defs>
+</svg>

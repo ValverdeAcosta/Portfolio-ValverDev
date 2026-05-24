@@ -15,6 +15,8 @@ export interface Project extends CardItem {
   category: string;
   company: string;
   gradient: string;
+  logoAlt: string;
+  logoSrc: string;
   period: string;
   role: string;
 }
