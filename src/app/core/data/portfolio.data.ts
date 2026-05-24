@@ -33,25 +33,37 @@ export const SERVICES: CardItem[] = [
 
 export const PROJECTS: Project[] = [
   {
-    category: 'E-Commerce',
-    title: 'Dashboard Analytics',
-    description: 'Panel de análisis en tiempo real con visualizaciones interactivas y reportes automatizados.',
+    company: 'EPAM - NEORIS',
+    category: 'Sanoma Learning',
+    title: 'Plataforma educativa en Holanda',
+    role: 'Senior Frontend Developer',
+    period: 'Marzo 2023 → Actualidad',
+    description:
+      'Migración y nuevos desarrollos para una plataforma educativa utilizada por más de 5000 escuelas en los Países Bajos. Liderazgo frontend, mentoría técnica, definición de directrices estratégicas, garantía de estándares de calidad, cumplimiento de plazos y coordinación con otros equipos para mejorar la integración y la experiencia de usuario.',
     gradient: 'linear-gradient(135deg, #6c5ce7, #a29bfe, #74b9ff)',
-    tags: ['Angular', 'RxJS', 'D3.js', 'Tailwind'],
+    tags: ['Angular', 'Liderazgo Frontend', 'Mentoría', 'Calidad de código', 'UX'],
   },
   {
-    category: 'Mobile App',
-    title: 'App Fitness Tracker',
-    description: 'Aplicación mobile-first con seguimiento de actividad y sincronización en tiempo real.',
+    company: 'IRIUM',
+    category: 'Cliente Accenture',
+    title: 'Aplicaciones bancarias BBVA e Inversis',
+    role: 'Frontend Developer',
+    period: 'Mayo 2022 → Marzo 2023',
+    description:
+      'Desarrollo y mantenimiento de aplicaciones para Banco Inversis y Banco BBVA. Resolución de incidencias, corrección de bugs, construcción de componentes reutilizables y web components, mejora de estilos, gestión de estados, revisiones de PR y refactors orientados a reducir code smell y mejorar escalabilidad, homogeneidad, complejidad y legibilidad.',
     gradient: 'linear-gradient(135deg, #fd79a8, #e84393, #6c5ce7)',
-    tags: ['React', 'React Native', 'Firebase'],
+    tags: ['Web Components', 'State Management', 'Code Review', 'Refactor', 'Clean Code'],
   },
   {
-    category: 'SaaS Platform',
-    title: 'Cloud Management',
-    description: 'Gestión de infraestructura cloud con monitoreo, automatización y alertas.',
+    company: 'SOAMEE',
+    category: 'Marketplace, Backoffice y Landing Page',
+    title: 'Aplicaciones web para clientes',
+    role: 'Frontend + Tareas de Backend',
+    period: 'Septiembre 2021 → Mayo 2022',
+    description:
+      'Desarrollo de aplicaciones web para diferentes clientes, incluyendo marketplace, backoffice y landing page. Trabajo enfocado en SOLID, Clean Code, buenas prácticas y revisiones de código en GitHub como parte del aprendizaje continuo del equipo.',
     gradient: 'linear-gradient(135deg, #00b894, #00cec9, #0984e3)',
-    tags: ['Angular', 'Signals', 'NgRx', 'WebSocket'],
+    tags: ['Frontend', 'Backend', 'SOLID', 'Clean Code', 'GitHub Reviews'],
   },
 ];
 

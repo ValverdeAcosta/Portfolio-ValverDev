@@ -13,7 +13,10 @@ export interface CardItem {
 
 export interface Project extends CardItem {
   category: string;
+  company: string;
   gradient: string;
+  period: string;
+  role: string;
 }
 
 export interface Skill {
