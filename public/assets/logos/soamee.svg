@@ -1,17 +1,22 @@
 <svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
   <title id="title">SOAMEE</title>
   <defs>
-    <radialGradient id="bg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(70 48) rotate(48) scale(214)">
-      <stop stop-color="#5526A8"/>
-      <stop offset="0.56" stop-color="#351080"/>
-      <stop offset="1" stop-color="#24105F"/>
+    <radialGradient id="circle" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(82 42) rotate(52) scale(226)">
+      <stop offset="0" stop-color="#4D22A2"/>
+      <stop offset="0.45" stop-color="#32106F"/>
+      <stop offset="1" stop-color="#1F0D55"/>
     </radialGradient>
-    <linearGradient id="shine" x1="38" y1="192" x2="190" y2="56" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFFFFF" stop-opacity="0.2"/>
+    <linearGradient id="slash" x1="42" y1="204" x2="202" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.26"/>
+      <stop offset="0.42" stop-color="#FFFFFF" stop-opacity="0.12"/>
       <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
+    <filter id="soft-shadow" x="35" y="30" width="170" height="186" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="5" stdDeviation="3" flood-color="#17083E" flood-opacity="0.35"/>
+    </filter>
   </defs>
-  <circle cx="120" cy="120" r="116" fill="url(#bg)"/>
-  <path d="M30 205C90 138 144 152 218 79C209 146 154 226 67 226C53 226 41 219 30 205Z" fill="url(#shine)"/>
-  <path d="M132 47C158 47 181 55 198 73L172 103C160 93 146 87 130 87C114 87 105 92 105 101C105 112 119 115 141 121C172 130 198 143 198 177C198 216 164 233 125 233C91 233 61 222 41 199L68 168C84 184 103 193 126 193C144 193 154 187 154 177C154 166 141 162 119 156C89 147 61 134 61 101C61 68 91 47 132 47Z" fill="white"/>
+
+  <circle cx="120" cy="120" r="116" fill="url(#circle)"/>
+  <path d="M32 206C72 155 111 149 150 129C176 116 197 99 219 70C211 156 154 226 72 226C56 226 43 219 32 206Z" fill="url(#slash)"/>
+  <path d="M47 176L80 142C93 158 108 166 126 166C145 166 155 159 155 147C155 135 142 131 122 126C90 119 63 106 63 74C63 40 92 17 135 17C162 17 184 26 200 44L168 78C159 68 147 62 132 62C116 62 107 68 107 78C107 89 120 93 141 98C173 106 200 119 200 151C200 187 170 211 126 211C92 211 64 198 47 176Z" fill="white" filter="url(#soft-shadow)"/>
 </svg>
