@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-footer',
   template: `
     <footer>
-      <span>© 2024 DevFolio. Todos los derechos reservados.</span>
+      <span>© 2024 Valver.dev. Todos los derechos reservados.</span>
       <nav>
         <a href="#">Privacidad</a>
         <a href="#">Términos</a>
