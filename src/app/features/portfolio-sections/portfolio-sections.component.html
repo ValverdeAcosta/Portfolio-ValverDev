@@ -1,0 +1,84 @@
+<section class="section about" id="about">
+  <div class="section-container split">
+    <div class="portrait" aria-hidden="true">VVA</div>
+    <div>
+      <span class="section-label">Sobre mí</span>
+      <h2>Transformo ideas en interfaces excepcionales</h2>
+      <p>Soy un Frontend Developer apasionado por crear experiencias web que combinan diseño elegante con código limpio y eficiente.</p>
+      <p>Mi enfoque se centra en la accesibilidad, el rendimiento y la atención al detalle.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="section-container">
+    <header class="section-header">
+      <span class="section-label">Servicios</span>
+      <h2>Lo que puedo hacer por ti</h2>
+      <p>Soluciones completas de desarrollo frontend para llevar tu proyecto al siguiente nivel.</p>
+    </header>
+    <div class="card-grid">
+      @for (service of services; track service.title) {
+        <article class="info-card">
+          <h3>{{ service.title }}</h3>
+          <p>{{ service.description }}</p>
+          <div class="tags">
+            @for (tag of service.tags; track tag) {
+              <span>{{ tag }}</span>
+            }
+          </div>
+        </article>
+      }
+    </div>
+  </div>
+</section>
+
+<section class="section projects" id="projects">
+  <div class="section-container">
+    <header class="section-header">
+      <span class="section-label">Portfolio</span>
+      <h2>Proyectos destacados</h2>
+      <p>Una selección de trabajos recientes con buenas prácticas de desarrollo.</p>
+    </header>
+    <div class="project-grid">
+      @for (project of projects; track project.title) {
+        <article class="project-card">
+          <div class="project-visual" [style.background]="project.gradient"></div>
+          <div class="project-body">
+            <span class="project-category">{{ project.category }}</span>
+            <h3>{{ project.title }}</h3>
+            <p>{{ project.description }}</p>
+            <div class="tags">
+              @for (tag of project.tags; track tag) {
+                <span>{{ tag }}</span>
+              }
+            </div>
+          </div>
+        </article>
+      }
+    </div>
+  </div>
+</section>
+
+<section class="section" id="skills">
+  <div class="section-container">
+    <header class="section-header">
+      <span class="section-label">Habilidades</span>
+      <h2>Tecnologías & Herramientas</h2>
+      <p>Stack principal y herramientas de trabajo diario.</p>
+    </header>
+    <div class="skills-list">
+      @for (skill of skills; track skill.name) {
+        <div class="skill">
+          <div class="skill-header">
+            <strong>{{ skill.name }}</strong>
+            <span>{{ skill.percent }}%</span>
+          </div>
+          <div class="skill-bar">
+            <span [style.width.%]="skill.percent"></span>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>

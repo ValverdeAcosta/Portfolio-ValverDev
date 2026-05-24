@@ -1,0 +1,19 @@
+<section class="section contact" id="contact">
+  <div class="section-container">
+    <header class="section-header">
+      <span class="section-label">Contacto</span>
+      <h2>¿Tienes un proyecto en mente?</h2>
+      <p>Estoy disponible para nuevos proyectos y colaboraciones. ¡Hablemos!</p>
+    </header>
+
+    <form class="contact-form" [formGroup]="form" (ngSubmit)="submit()">
+      <div class="form-row">
+        <label>Nombre <input formControlName="name" placeholder="Tu nombre"></label>
+        <label>Email <input formControlName="email" placeholder="tu@email.com"></label>
+      </div>
+      <label>Asunto <input formControlName="subject" placeholder="¿En qué puedo ayudarte?"></label>
+      <label>Mensaje <textarea formControlName="message" placeholder="Cuéntame sobre tu proyecto..."></textarea></label>
+      <button type="submit" [class.sent]="sent()">{{ sent() ? '¡Mensaje enviado!' : 'Enviar mensaje' }}</button>
+    </form>
+  </div>
+</section>
